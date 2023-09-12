@@ -1,13 +1,96 @@
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+main{text-align: center;}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+.react-sketch-canvas{
+  margin: auto;
+}
+.color-picker{
+  text-align: center;
+  margin: 20px;
+}
+.color-picker button{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: unset;
+  margin: 3px;
+}
+
+.color_1{
+  background-color: #000;
+}
+.color_2{
+  background-color: red;
+}
+.color_3{
+  background-color: #01fefc;
+}
+.color_4{
+  background-color: #0001fc;
+}
+.color_5{
+  background-color: #0100a7;
+}
+.color_6{
+  background-color: #acd8e5;
+}
+.color_7{
+  background-color: #81007f;
+}
+.color_8{
+  background-color: #ffff04;
+}
+.color_9{
+  background-color: #05fd00;
+}
+.color_10{
+  background-color: #ff00fe;
+}
+
+.canvas-area .panel {
+  padding: 2rem;
+  background-color: var(--light);
+}
+
+.btn-primary{
+  background: #37569f;
+    padding: 7px 13px;
+    border: unset;
+    color: #fff;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.exported-image {
+  width: 25%;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.react-sketch-canvas {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.sketchingTime {
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.logo {
+  clip-path: inset(0px 80px 0px 0px);
+  height: 64px;
+}
+
+.title {
+  margin-left: -64px;
 }
