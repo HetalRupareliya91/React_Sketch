@@ -136,6 +136,10 @@ function App() {
     }
   };
 
+  const rectHandler =() => {
+    
+  }
+
   const eraserHandler = () => {
     const eraseMode = canvasRef.current?.eraseMode;
 
@@ -192,9 +196,10 @@ function App() {
   );
 
   const buttonsWithHandlers: Handlers = [
+    ["Rectangle", rectHandler, "primary"],
     ["Eraser", eraserHandler, "primary"],
     ["Undo", undoHandler, "primary"],
-    // ["Redo", redoHandler, "primary"],
+    ["Redo", redoHandler, "primary"],
     ["Clear", clearHandler, "primary"],
     ["Save", imageExportHandler, "primary"],
   ];
